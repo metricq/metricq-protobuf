@@ -67,5 +67,5 @@ message HistoryResponse {
     repeated double value_avg = 5 [deprecated=true];
     repeated Aggregate aggregate = 6;
     repeated double value = 7;
-    optional string error = 8;
+    string error = 8;
 }
