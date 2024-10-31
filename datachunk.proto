@@ -29,6 +29,7 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 syntax = "proto3";
 package metricq;
+option go_package = "./metricq";
 
 message DataChunk {
     repeated int64 time_delta = 1;

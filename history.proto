@@ -30,6 +30,7 @@
 
 syntax = "proto3";
 package metricq;
+option go_package = "./metricq";
 
 message HistoryRequest {
     int64 start_time = 1;
